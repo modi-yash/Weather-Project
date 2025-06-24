@@ -21,7 +21,7 @@ except Exception as e:
 
 # Weather App
 is_fahrenheit = False # Default to Celsius if not determined
-app_id_open_weather = ("5eb4694b33ce45fe805578c4e2f51357", ) # OpenWeatherMap API key
+app_id_open_weather = ("apid", ) # OpenWeatherMap API key
 try:
     import requests # type: ignore
     # Checking if should be Fahrenheit or Celsius
