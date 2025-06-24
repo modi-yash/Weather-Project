@@ -1,6 +1,6 @@
 import sys
 import os
-
+# Weather.py
 class City:
     def __init__(self, name, country, lat, lon, temp, weather):
         self.name = name
