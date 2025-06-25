@@ -82,6 +82,8 @@ try:
         print("An unknown error occurred:", e)
 except ImportError:
     print("The 'requests' module is not installed. Please install it before running this script. You may install it by typing 'pip install requests' in your terminal.")
+except Exception as e:
+    print("An unexpected error occurred:", e)
 
 
 # End of try block for requests import
